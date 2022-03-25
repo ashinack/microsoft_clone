@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 56px;
+    background-color: rgb(253, 255, 255);
+    display: flex;
+}
+.right-header{
+    width: 40%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.left-header{
+    width: 60%;
+    background-color: rgb(255 255 255);
+}
+.head-ul{
+    list-style-type: none;
+}
+.microsoft-logo{
+    margin-top: 1px;
+    margin-left: 74px;
+    width: 137px;
+    height: 100%;
+    padding: 16px 6px 16px 10px;
+    float: left;
+}
+.head-li{
+   display: inline-block;
+}
+.head-a{
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top:6px;
+    margin-left: 14px;
+    padding: 16px 0px 10px;
+    text-decoration: none;    
+    height: 48px;
+}
+a-logo{
+    text-decoration: none;
+}
+.microsoft-a{
+       margin-left: 360px;
+       display: flex;
+}
+.arrow{
+   margin-top: 27px;
+    margin-left: -2px;
+}
+.search-symbol{
+   display: inline-block;
+    margin-top: 8px;
+    margin-left: -1px;
+    padding: 16px 8px 10px;
+    height: 48px;
+}
+.cart{
+    font-size: 21px;
+    color: #262626;
+}
+.cart-symbol{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 10px;
+    padding: 16px 8px 10px;
+    height: 48px;
+}
+.signin-symbol{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 10px;
+    padding: 16px 8px 10px;
+    height: 48px;
+}
+.user{
+    font-size: 21px;
+    color: #262626;
+}
+.all{
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    margin-top:6px;
+    margin-left: -141px;
+    padding: 16px 8px 10px;
+    height: 48px;
+}
+.new-image{
+    width: 1003px;
+    height: 376px;
+    margin-left: 126px;
+}
+.icons{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons>div{
+    width: 135px;
+    height: 166px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.choose{
+    margin-left: 38px;
+    margin-top: 30px;
+}
+.text{
+    margin-top: 14px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.laptops{
+    width: 100%;
+    height: 382px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+.laptops>div{
+    width: 235px;
+    height: 364px;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.laptop-pics{
+    width: 234px;
+    height: 136px;
+}
+.laptop-text{
+   margin-top: 49px;
+}
+.inner-text{
+    margin-top: 10px;
+}
+.shop-now{
+    margin-top: 10px;
+    color: #0067b8;
+    font-size: 15px;
+    display: flex;
+}
+.now-arrow{
+    padding-top: 0px;
+    margin-left: 3px;
+    font-size: 19px;
+}
+h3{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.new{
+    margin-top: 15px;
+    width: 53px;
+    height: 25px;
+    background-color:#ffd800;
+}
+.laptop-text1{
+    margin-top: 8px;
+}
+.microsoft-onedrive-image{
+    width: 1056px;
+    height: 409px;
+    margin-left: 108px;
+    margin-top: 29px;
+}
+.text-onedrive{
+    position: absolute;
+}
+.onedrive-image{
+    position: relative;
+}
+.onedrive{
+    margin-left: 214px;
+    margin-top: -284px;
+    font-size: 24px;
+    line-height: 28px;
+    max-height: 56px;
+    font-weight: 600;
+}
+body{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.paragraph-div{
+   width: 702px;
+}
+.para{
+    margin-left: 217px;
+    margin-top: -238px;
+}
+.learn-more{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: black;
+}
+.sec-background-image{
+    height: 428px;
+    width: 1071px;
+    margin-left: 93px;
+    background-color: rgb(255 255 255);
+
+}
+.image{
+    background: url(images/microsoftonedrive.webp);
+    background-repeat: no-repeat;
+    margin-top: 41px;
+    height: 455px;
+    width: 100%;
+    background-size: 1071px 424px;
+} 
+.onedrive-text{
+    margin-left: 50px;
+    padding-top: 129px;
+}
+.para-class{
+    width: 457px;
+    height: 45px;
+    margin-left: 49px;
+    margin-top: 18px;
+}
+.button-learn-more{
+    width: 133px;
+    height: 43px;
+    display: flex;
+    background-color: black;
+    margin-left: 49px;
+    margin-top: 34px;
+}
+.right{
+    color: aliceblue;
+    margin-left: -1px;
+    margin-top: 9px;
+    font-size: 25px;
+}
+.p-learn-more{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.business{
+    width: 318px;
+    height: 44px;
+    margin-top: 40px;
+    margin-left: 98px;
+    background-color: rgb(255, 255, 255);
+}
+.business-h3{
+    font-size: 27px;
+}
+.business-images{
+    width: 100%;
+   height: 466px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.business-images>div{
+    width: 235px;
+    height: 411px;
+    padding: 23px;
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.social-medias{
+    width: 299px;
+    height: 130px;
+    margin-left: 88px;
+    background-color: #ffffff;
+    display: flex; 
+    
+
+} 
+.social-medias>div{
+  margin-left: 2px;
+  margin-top: 26px;
+}
+.social-media-images{
+   width: 47px;
+    height: 35px;
+}
+.footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 389px;
+}
+.sub-footer{
+    width: 100%;
+    height: 332px;
+     background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-footer>div{
+    width: 193px;
+    height: 313px;
+    margin-left: 53px;
+    margin-top: 16px;
+     background-color: #f2f2f2;
+}
+.footer-li{
+    line-height: 30px;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: #616161;
+}
+.footer-ul{
+    list-style-type: none;
+}
+.footer-h4{
+    color: #616161;
+    font-size: 15px;
+}
+.end-footer{
+    width: 100%;
+    height: 57px;
+    background-color: #f2f2f2;
+    display: flex;
+}
+.left-end-footer{
+     display: flex;
+     width: 40%;
+     justify-content: start;
+
+}
+.english-india{
+    color: #262626;
+    margin-left: 14px;
+    margin-top: 16px;
+    font-size: 11px;
+    line-height: 16px;
+}
+.world-icon{
+    margin-top: 8px;
+    margin-left: 84px;
+    font-size: 25px;
+}
+.right-end-footer{
+    display: flex;
+    width: 60%;
+    justify-content: start;
+    padding-left: 279px;
+}
+.right-end-footer>div{
+   margin-left: 19px;
+  margin-top: 14px;
+ 
+}
+.link-color{
+    color: #0067b8;
+}
+
+
+
